@@ -20,6 +20,7 @@ export default function Textform(props) {
             let newtext= ""
             settext(newtext)
       props.setprogress(100)
+      document.title=`TExtUtility-text claeared`
             }
 
     const handleonchange=(event)=>{
